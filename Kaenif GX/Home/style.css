@@ -14,6 +14,7 @@ body {
     align-items: center;
     width: 99%;
     text-decoration: none;
+    position: fixed;
 }
 
 header .logo{
@@ -89,6 +90,80 @@ header .links li a:hover{
     transform: scale(1.1);
 }
 
+.cod{
+    background-image: url(img/COD.jpg);
+    width: 25%;
+    height: 45%;
+    position: relative;
+    top: 25%;
+    left: 65%;
+    background-size: cover;
+    border-radius: 10%;
+    font-size: 20px;
+
+}
+
+.price{
+    background-color: red;
+    color: white;
+    display: flex;
+    width: 18%;
+    height: 10%;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    border-radius: 40%;
+    top: 1.8%;
+    left: 76%;
+}
+
+.oferta{
+    background-color: #fff;
+    color: red;
+    display: flex;
+    width: 7%;
+    height: 10%;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    border-radius: 100%;
+    left: 62%;
+    top: 16%;
+    font-size: 2.5rem;
+}
+
+.txt{
+    color: #fff;
+    top: 30%;
+    left: 8%;
+    position: absolute;
+
+}
+
+.txt ul li{
+    text-decoration: none;
+}
+
+.txt ul{
+    list-style: none;
+}
+
+.input{
+    top: 2%;
+    left: 10%;
+    position: relative;
+}
+
+.search{
+    background-color: #921313;
+    border-radius: 50px;
+    height: 8%;
+
+}
+
+.submit{
+
+}
 .centered{
     color: black;
     text-align: center;
@@ -103,5 +178,6 @@ header .links li a:hover{
     height: 60rem;
     border-bottom-left-radius: 5rem;
     border-bottom-right-radius: 5rem;
+    z-index: ;
 }
 
