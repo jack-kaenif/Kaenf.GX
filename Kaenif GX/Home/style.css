@@ -186,6 +186,36 @@ header .links li a:hover{
     z-index: 0;
 }
 
+.menu2{
+|   top: 0%;
+    background-image: url(img/Background.jpg);
+    background-size: cover;
+    height: 25rem;
+    border-bottom-left-radius: 5rem;
+    border-bottom-right-radius: 5rem;
+    z-index: 0;
+    align-items: center;
+    justify-content: center;
+}
+
+.fall1{
+    position: absolute;
+    font-size: 55px;
+    left: 40%;
+    top: 20%;
+    color: #ffffff;
+    z-index: 1;
+}
+
+.fall2{
+    position: absolute;
+    font-size: 15px;
+    left: 43%;
+    top: 36%;
+    color: #fff;
+    z-index: 1;
+}
+
 .bar{
     position: absolute;
     justify-content: center;
@@ -865,4 +895,38 @@ header .links li a:hover{
 .mail{
     position: relative;
     left: 4%;
+}
+
+.textp{
+    position: absolute;
+    top: 76%;
+    left: 50%;
+    background-color: transparent;
+    width: 34rem;
+}
+
+.fallh2{
+    font-size: 30px;
+    color: #fff;
+}
+
+.fall-price{
+    color: #c41212;
+}
+
+.desc{
+    color: #fff;
+}
+
+.f-img{
+    position: relative;
+    width: 29rem;
+    height: 20rem;
+    background-color: #fff;
+    left: 10%;
+    top: 16rem;
+    z-index: 1;
+}
+.cart1{
+    background-color: turquoise;
 }
