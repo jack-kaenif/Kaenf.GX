@@ -324,6 +324,7 @@ header .links li a:hover{
     margin: 2rem;
     font-size: 15px;
     z-index: 0;
+    padding: 2rem;
 }
 
 .top-g{
@@ -921,12 +922,121 @@ header .links li a:hover{
 .f-img{
     position: relative;
     width: 29rem;
-    height: 20rem;
-    background-color: #fff;
+    height: 29rem;
+    background-image: url(img/Fallout.webp);
+    background-size: cover;
+    border-radius: 10%;
+    border-color: #000000;
     left: 10%;
     top: 16rem;
     z-index: 1;
 }
+
+
+.cart2{
+    position: relative;
+    width: 10rem;
+    height: 3rem;
+    background-color: #921313;
+    display: inline-flex;
+    flex-direction: row;
+    align-items: center;
+    border-radius: 15px;
+    top: 3%;
+}
+
+.cart2:hover{
+    cursor: pointer;
+    background-color: #8f0646;
+}
+
+.number{
+    width: 3rem;
+    height: 3rem;
+    border-radius: 20px;
+    text-align: center;
+    justify-content: center;
+    font-size: 15px;
+}
+
+.bag2{
+    width: 40px;
+    height: 40px;
+}
+.cartext{
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+}
+
 .cart1{
-    background-color: turquoise;
+    position: absolute;
+    width: 35rem;
+    height: 15rem;
+    z-index: 3;
+    top: 62rem;
+    left: 50%;
+}
+
+.id{
+    position: relative;
+    color: #fff;
+    font-size: 15px;
+    background-color:transparent;
+    width: max-content;
+
+}
+
+.mmi{
+    position: relative;
+    color: blue;
+    font-size: 15px;
+    background-color:transparent;
+    width: max-content;
+    left: 16%;
+    bottom: 81%;
+
+
+}
+
+.p3{
+    position: absolute;
+    width: 100%;
+    height: 500px;
+    top: 85rem;
+}
+
+.coments{
+    position: relative;
+    width: 70%;
+    height: 25rem;
+    left: 13.5%;
+    background-color: rgb(66, 67, 68);
+    border-radius: 20px;
+    padding: 2rem;
+}
+
+.rev1{
+    position: relative;
+    margin: 1rem;
+    color: #fff;
+    width: max-content;
+    height: max-content;
+    padding: 10px;
+
+}
+
+.rev2{
+    position: relative;
+    margin: 1rem;
+    color: #fff;
+    padding: 1rem;
+    font-size: 18px;
+}
+
+.action-games{
+    position: absolute;
+    top: 120rem;
+    padding: 3rem;
+    left: 3rem;
 }
